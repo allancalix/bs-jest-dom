@@ -1,5 +1,5 @@
 /* Bring in all of the matchers. */
-[%bs.raw {|require('@testing-library/jest-dom')|}];
+[%bs.raw {|import '@testing-library/jest-dom'|}];
 
 type expect;
 type t = Dom.element;
